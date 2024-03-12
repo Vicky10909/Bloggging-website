@@ -1,0 +1,26 @@
+.title {
+    color: #607274;
+    text-align: center;
+    padding-top: 10rem;
+    font-family: "Noto Sans Tangsa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 4rem;
+    font-style: normal;
+}
+
+.link {
+    text-align: center;
+    padding-top: 5rem;
+    font-family: "Noto Sans Tangsa", sans-serif;
+    color: #DED0B6;
+}
+
+#link {
+    text-decoration: none;
+}
+
+#link:hover {
+    text-decoration: underline;
+    text-decoration-color: #B2A59B
+}

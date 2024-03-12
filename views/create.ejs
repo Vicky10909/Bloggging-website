@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/create.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <title>Create your blog</title>
+</head>
+<body>
+  <%- include("partials/header.ejs") %>
+ <!-- form will be sent to submit -->
+    <form action="/submit" method="POST">
+      <div class="container">
+        <div class="blog title">
+          <div>
+            <label for="title" class="label">Step One&#128204;: Think About A Good Title</label>
+          </div>
+          <input type="text" name="title" class="title-input">
+        </div>
+
+        <div class="blog content">
+          <div>
+            <label for="content" class="label">Step Two&#128394;: Time To Write Your Blog!</label>
+          </div>
+          <textarea name="content"></textarea>
+        </div>
+        <label for="title" class="label">Step Three&#128071;: Done? Hit Submit!</label>
+        <input type="submit" value="Submit">
+      </div>
+    </form>  
+  
+    <%- include("partials/footer.ejs") %>
+    
+</body>
+</html>
+
+

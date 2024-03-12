@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+h3 {
+    color: #958a82
+}
+
+h1 {
+    color: #607274
+}
+
+p {
+    color: #B2A59B
+}
+
+.feature {
+    color: #111b11;
+}
+
+div .btn {
+    color: #f9f6f2;
+    background-color: #747f80;
+    margin-bottom: 20px;
+}
+
+div .btn:hover {
+    color: #76453B;
+}
